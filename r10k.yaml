@@ -6,5 +6,5 @@
   # This will clone the git repository and instantiate an environment per
   # branch in /etc/puppet/environments
   :base:
-    remote: 'git@github.com:severity1/puppet-conf.git'
+    remote: 'git@github.com:severity1/puppet-ctrl.git'
     basedir: '/etc/puppet/environments'
