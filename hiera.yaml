@@ -9,5 +9,5 @@
 
 :yaml:
    :datadir: /etc/puppet/environments/%{environment}/hiera
-   # If you want it to rely on ec2 tag.
+   # Uncomment the line below if you want to rely on ec2 tags to specify environment.
    # :datadir: /etc/puppet/environments/%{ec2_tag_environment}/hiera
