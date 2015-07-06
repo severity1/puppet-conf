@@ -1,9 +1,11 @@
 ---
 :backends:
   - yaml
+
 :hierarchy:
-  - roles/%{ec2_tag_role}
+  - "nodes/%{fqdn}"
+  - "roles/%{ec2_tag_role}"
   - common
 
 :yaml:
-   :datadir: /etc/puppet/environments/%{environment}/hiera
+   :datadir: /etc/puppet/environments/%{ec2_tag_environment}/hiera
