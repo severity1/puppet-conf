@@ -8,4 +8,6 @@
   - common
 
 :yaml:
-   :datadir: /etc/puppet/environments/%{ec2_tag_environment}/hiera
+   :datadir: /etc/puppet/environments/%{environment}/hiera
+   # If you want it to rely on ec2 tag.
+   # :datadir: /etc/puppet/environments/%{ec2_tag_environment}/hiera
